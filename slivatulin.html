@@ -1,0 +1,54 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Сборы к республике</title>
+<link href="template.css" rel="stylesheet" type="text/css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+<header>
+       <div class="header">
+        <h1><a href="/" class="logotype">Ozem Blog</a></h1>
+		</div>
+		<img src="up.jpg" id="up"/>
+</header>
+	<img src="Ozemx2.jpg" class="postimg">
+	<div class="post">
+    	<p class="postname">
+    	Современные открытия в области слив | новейшая находка - СливаТулин
+    	</p>
+	</div>
+	<div class="note">
+	    <p>
+		Сегодня учёными было открыто новое месторождение сливатулина, она располагается в Предгорьях Малого И Большого Кавказа. Запасы оцениваются в 6 миллионов тонн.<br>
+		Наша редакция отправилась на <strong>ГеоFuck</strong> и наткнулась там на особого специалиста, который показал нам где именно находится <strong>SlivaTulin:</strong><br><br>
+		<img src="7hUPrvNwM3E.jpg" class="postimg"/><br><br>
+			<strong>А вот и комментарий:</strong> Учёные готовят проекты по использованию сливатулина в общественной и политической жизни.<br>
+		Но скептики утверждают, что он может употребляться в олимпиадные движении. Мы опрасили некоторых учащихся, что они думают на эту тему:<br>
+"Конечно, я считаю, что учёные сделали открытие, теперь сливатулин будет доступен для всех!"<br>
+"Ой, адчапіцеся, усе гэта выдумкі, нічога няма, но дайце грошы, мо і знойдзем!"
+		</p>
+	</div>
+<footer>
+<p class="semi">Ozem Blog 2019. All rights reserved</p>
+</footer>
+</body>
+<script type="text/javascript">
+	$("#up").hide();
+	$(function() {
+	$(window).scroll(function() {
+	if($(this).scrollTop() > 100) {
+	$('#up').fadeIn();
+	} else {
+	$('#up').fadeOut();}
+ });
+$('#up').click(function() {
+$('body,html').animate({scrollTop:0},800);
+});
+});
+</script>
+</html>
